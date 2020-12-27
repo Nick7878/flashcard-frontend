@@ -1,0 +1,25 @@
+<div [ngClass]="'container alert-warning'">
+  <h1>Login:</h1>
+
+  <div [ngClass]="'row justify-content-center'">
+    <form [ngClass]="'d-flex justify-content-center alert-danger'">
+      <div [ngClass]="'row justify-content-center'">
+        <div [ngClass]="'col-sm'">
+          <label for="email" [ngClass]="'mr-3'">Email: </label>
+        </div>
+        <div [ngClass]="'col-sm'">
+          <input type="text" id="email" name="emailInput">
+        </div>
+      </div>
+
+      <div [ngClass]="'row justify-content-center'">
+        <div [ngClass]="'col'">
+          <label for="password" [ngClass]="'mr-3'">Password: </label>
+        </div>
+        <div [ngClass]="'col'">
+          <input type="text" id="password" name="passwordInput">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
