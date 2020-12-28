@@ -121,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "flashcard-frontend"
+  "defaultProject": "flashcard-frontend",
+  "cli": {
+    "analytics": "b8bebaaa-1390-4728-8254-6158a483b256"
+  }
 }
