@@ -1,26 +1,22 @@
-<div [ngClass]="'container alert-warning'">
-
-
-  <div [ngClass]="'row justify-content-center rounded'">
-    <form [ngClass]="'bg-light'">
-      <h1>Login:</h1>
-      <div [ngClass]="'row justify-content-center'">
-        <div [ngClass]="'col-sm'">
-          <label for="email" [ngClass]="'mr-3'">Email: </label>
-        </div>
-        <div [ngClass]="'col-sm'">
-          <input type="text" id="email" name="emailInput" [ngClass]="'rounded'">
-        </div>
+<div [ngClass]="'row justify-content-center mt-4'">
+  <form [ngClass]="'bg-light rounded'">
+    <h1>Login:</h1>
+    <div [ngClass]="'row justify-content-center'">
+      <div [ngClass]="'col-sm'">
+        <label for="email" [ngClass]="'mr-3'">Email: </label>
       </div>
-
-      <div [ngClass]="'row justify-content-center mt-3'">
-        <div [ngClass]="'col-sm'">
-          <label for="password" [ngClass]="'mr-3'">Password: </label>
-        </div>
-        <div [ngClass]="'col-sm'">
-          <input type="password" id="password" name="passwordInput" [ngClass]="'rounded'">
-        </div>
+      <div [ngClass]="'col-sm'">
+        <input type="text" id="email" name="emailInput" [ngClass]="'rounded'">
       </div>
-    </form>
-  </div>
+    </div>
+
+    <div [ngClass]="'row justify-content-center mt-3'">
+      <div [ngClass]="'col-sm'">
+        <label for="password" [ngClass]="'mr-3'">Password: </label>
+      </div>
+      <div [ngClass]="'col-sm'">
+        <input type="password" id="password" name="passwordInput" [ngClass]="'rounded'">
+      </div>
+    </div>
+  </form>
 </div>
